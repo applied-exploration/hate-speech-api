@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/daniel/Documents/Code/python-api-example/source"
+VIRTUAL_ENV="/Users/daniel/Documents/Code/hate-speech-api/source"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

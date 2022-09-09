@@ -1,15 +1,13 @@
 from flask import Flask
 from flask_restful import Api
 
-from endpoints.users import  Users
-from endpoints.locations import Locations
+from endpoints.inference import ModelEndpoint
 
 app = Flask(__name__)
 api = Api(app)
 
 
-api.add_resource(Users, '/users')  # '/users' is our entry point for Users
-api.add_resource(Locations, '/locations')  # and '/locations' is our entry point for Locations
+api.add_resource(ModelEndpoint, '/detect') 
 
 
 # if __name__ == '__main__':
