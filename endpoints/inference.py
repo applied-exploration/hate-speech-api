@@ -41,7 +41,7 @@ class ModelEndpoint(Resource):
         if pipeline_name in self.pipelines.keys():
             print("getting it from dict") 
             pipeline = self.pipelines[pipeline_name]
-        else:
+        else: 
             print("Loading it")
             pipeline = load_pipeline(pipeline_name)
             self.pipelines[pipeline_name] = pipeline
