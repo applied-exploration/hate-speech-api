@@ -3,4 +3,4 @@ flask
 flask_restful
 pandas
 # streamlit
-# git+https://github.com/applied-exploration/modular-pipelines@feature/packaging#egg=mopi
+git+https://github.com/applied-exploration/modular-pipelines@feature/packaging#egg=mopi
