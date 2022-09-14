@@ -39,7 +39,7 @@ class ModelEndpoint(Resource):
             }, 409 
         
         if pipeline_name in self.pipelines.keys():
-            print("getting it from dict")
+            print("getting it from dict") 
             pipeline = self.pipelines[pipeline_name]
         else:
             print("Loading it")
