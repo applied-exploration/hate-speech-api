@@ -2,3 +2,4 @@ gunicorn
 flask
 flask_restful
 pandas
+git+https://github.com/applied-exploration/modular-pipelines@feature/packaging#egg=mopi 
