@@ -6,7 +6,7 @@ import random
 from mopi.blocks.pipeline import Pipeline
 from mopi.blocks.io import load_pipeline
 from mopi.inference import run_inference
-from mopi.library.experiments.hate_speech import random, all_0s, all_1s
+from mopi.library.experiments.hate_speech_baselines import random, all_0s, all_1s
 from mopi.constants import Const
 
 from os import listdir
