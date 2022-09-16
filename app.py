@@ -9,4 +9,4 @@ api = Api(app)
 
 api.add_resource(ModelEndpoint, '/detect')  
 
- 
+  
