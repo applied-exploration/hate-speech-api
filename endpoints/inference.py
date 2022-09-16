@@ -47,7 +47,7 @@ class ModelEndpoint(Resource):
             self.pipelines[pipeline_name] = pipeline
         
           
-        results = run_inference(pipeline, queried_texts)
+        results = run_inference(pipeline, queried_texts) 
    
         predictions = {queried_texts[i]: str(result) for i, result in enumerate(results)}
 
